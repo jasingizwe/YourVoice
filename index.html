@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>YourVoice | Secure Blockchain Evidence for Survivors</title>
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#C2410C",
+              "background-light": "#f8f6f5",
+              "background-dark": "#170e0a",
+            },
+            fontFamily: {
+              display: ["Manrope"],
+            },
+            borderRadius: {
+              DEFAULT: "0.5rem",
+              lg: "1rem",
+              xl: "1.5rem",
+              full: "9999px",
+            },
+          },
+        },
+      };
+    </script>
+
+    <style type="text/tailwindcss">
+      body {
+        font-family: "Manrope", sans-serif;
+      }
+      .soft-glow {
+        box-shadow: 0 0 20px rgba(194, 65, 12, 0.1);
+      }
+      .card-hover:hover {
+        box-shadow: 0 10px 30px rgba(194, 65, 12, 0.15);
+        transform: translateY(-4px);
+        transition: all 0.3s ease;
+      }
+    </style>
+  </head>
+
+  <body
+    class="bg-background-light dark:bg-background-dark text-slate-800 dark:text-slate-200 font-display transition-colors duration-300"
+  >
+    <div class="fixed top-0 right-0 z-50 p-4">
+      <a
+        class="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-full text-sm font-bold shadow-lg flex items-center gap-2"
+        href="https://google.com"
+      >
+        <span class="material-icons text-sm">close</span>
+        QUICK EXIT
+      </a>
+    </div>
+
+    <nav
+      class="sticky top-0 z-40 w-full border-b border-primary/10 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-20 items-center">
+          <div class="flex items-center gap-2">
+            <div class="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
+              <span class="material-icons text-white">security</span>
+            </div>
+            <span class="text-2xl font-extrabold tracking-tight text-slate-900 dark:text-white"
+              >YourVoice</span
+            >
+          </div>
+
+          <div class="hidden md:flex items-center space-x-8">
+            <a class="text-sm font-medium hover:text-primary transition-colors" href="#"
+              >How it Works</a
+            >
+            <a class="text-sm font-medium hover:text-primary transition-colors" href="#"
+              >Security</a
+            >
+            <a class="text-sm font-medium hover:text-primary transition-colors" href="#"
+              >Resources</a
+            >
+
+            <!-- UPDATED LINK -->
+            <a
+              href="register.html"
+              class="bg-primary hover:bg-primary/90 text-white px-6 py-2.5 rounded-lg font-bold transition-all shadow-md active:scale-95"
+            >
+              Connect Wallet
+            </a>
+          </div>
+
+          <div class="md:hidden">
+            <span class="material-icons cursor-pointer">menu</span>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="relative overflow-hidden pt-24 pb-32 lg:pt-48 lg:pb-56">
+      <div class="absolute top-0 left-1/2 -translate-x-1/2 -z-0 opacity-20 pointer-events-none">
+        <div class="w-[800px] h-[600px] bg-primary rounded-full blur-[160px]"></div>
+      </div>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="text-center max-w-4xl mx-auto">
+          <div
+            class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary/10 border border-primary/20 text-primary text-sm font-semibold mb-8"
+          >
+            <span class="material-icons text-xs">verified_user</span>
+            Blockchain-Verified Security
+          </div>
+
+          <h1
+            class="text-6xl lg:text-8xl font-extrabold text-slate-900 dark:text-white leading-[1.05] tracking-tight mb-10"
+          >
+            Secure Your Voice. <br />
+            <span class="text-primary">Protect Your Evidence.</span>
+          </h1>
+
+          <p
+            class="text-xl lg:text-2xl text-slate-600 dark:text-slate-400 mb-12 max-w-2xl mx-auto leading-relaxed"
+          >
+            Leveraging tamper-proof blockchain technology to ensure your story is heard, stored,
+            and protected with absolute privacy and legal-grade integrity.
+          </p>
+
+          <div class="flex flex-col sm:flex-row gap-6 justify-center">
+            <!-- UPDATED LINK -->
+            <a
+              href="register.html"
+              class="bg-primary hover:bg-primary/90 text-white px-10 py-5 rounded-xl font-bold text-xl transition-all shadow-2xl shadow-primary/20 flex items-center justify-center gap-3"
+            >
+              Connect Wallet
+              <span class="material-icons">account_balance_wallet</span>
+            </a>
+
+            <a
+              href="#"
+              class="bg-slate-200 dark:bg-primary/10 hover:bg-slate-300 dark:hover:bg-primary/20 text-slate-900 dark:text-primary px-10 py-5 rounded-xl font-bold text-xl transition-all border border-transparent dark:border-primary/30 text-center"
+            >
+              Learn More
+            </a>
+          </div>
+
+          <div
+            class="mt-16 flex items-center justify-center gap-8 text-slate-500 dark:text-slate-500 text-sm font-medium"
+          >
+            <div class="flex items-center gap-2">
+              <span class="material-icons text-primary">lock</span>
+              End-to-End Encrypted
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="material-icons text-primary">public</span>
+              Decentralized Storage
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-32 bg-slate-50 dark:bg-black/40 border-y border-primary/5">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-20">
+          <h2 class="text-primary font-bold tracking-widest uppercase text-sm mb-4">
+            Core Technology
+          </h2>
+          <h3 class="text-4xl lg:text-5xl font-extrabold text-slate-900 dark:text-white mb-6">
+            Built on a Foundation of Trust
+          </h3>
+          <p class="text-lg text-slate-600 dark:text-slate-400">
+            Our platform combines the most secure decentralized protocols to ensure your data remains
+            accessible only to you.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="bg-background-light dark:bg-background-dark/40 p-10 rounded-xl border border-primary/10 card-hover">
+            <div class="w-14 h-14 bg-primary/20 rounded-lg flex items-center justify-center mb-6">
+              <span class="material-icons text-primary text-3xl">cloud_done</span>
+            </div>
+            <h4 class="text-xl font-bold text-slate-900 dark:text-white mb-4">IPFS Storage</h4>
+            <p class="text-slate-600 dark:text-slate-400 leading-relaxed">
+              Decentralized storage means your evidence is distributed across a secure network,
+              ensuring it can never be deleted or altered by third parties.
+            </p>
+          </div>
+
+          <div class="bg-background-light dark:bg-background-dark/40 p-10 rounded-xl border border-primary/10 card-hover">
+            <div class="w-14 h-14 bg-primary/20 rounded-lg flex items-center justify-center mb-6">
+              <span class="material-icons text-primary text-3xl">history_edu</span>
+            </div>
+            <h4 class="text-xl font-bold text-slate-900 dark:text-white mb-4">
+              Blockchain Transparency
+            </h4>
+            <p class="text-slate-600 dark:text-slate-400 leading-relaxed">
+              An unchangeable audit trail of your case history. We provide legal-grade integrity that
+              proves the timeline and authenticity of your story.
+            </p>
+          </div>
+
+          <div class="bg-background-light dark:bg-background-dark/40 p-10 rounded-xl border border-primary/10 card-hover">
+            <div class="w-14 h-14 bg-primary/20 rounded-lg flex items-center justify-center mb-6">
+              <span class="material-icons text-primary text-3xl">vpn_key</span>
+            </div>
+            <h4 class="text-xl font-bold text-slate-900 dark:text-white mb-4">
+              Secure Access Control
+            </h4>
+            <p class="text-slate-600 dark:text-slate-400 leading-relaxed">
+              You hold the cryptographic keys. Share access with legal counsel or specific authorities
+              only when you decide. Total control, always.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div
+          class="flex flex-col md:flex-row items-center justify-between gap-8 bg-primary/5 p-8 lg:p-12 rounded-2xl border border-primary/20"
+        >
+          <div class="flex items-center gap-8">
+            <div
+              class="hidden sm:flex w-20 h-20 bg-primary rounded-full items-center justify-center flex-shrink-0 shadow-lg shadow-primary/20"
+            >
+              <span class="material-icons text-white text-4xl">policy</span>
+            </div>
+            <div>
+              <h4 class="text-2xl font-bold text-slate-900 dark:text-white mb-2">
+                Your Privacy is our Priority
+              </h4>
+              <p class="text-slate-600 dark:text-slate-400 text-lg max-w-xl">
+                We do not store your identity. Your wallet address is your pseudonymous identifier.
+              </p>
+            </div>
+          </div>
+
+          <button
+            class="whitespace-nowrap bg-slate-900 dark:bg-white text-white dark:text-slate-900 px-10 py-4 rounded-xl font-bold hover:opacity-90 transition-opacity"
+          >
+            Security Whitepaper
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-32 relative">
+      <div class="max-w-4xl mx-auto px-4 text-center">
+        <h2 class="text-4xl lg:text-6xl font-extrabold text-slate-900 dark:text-white mb-8">
+          Ready to secure your story?
+        </h2>
+        <p class="text-xl lg:text-2xl text-slate-600 dark:text-slate-400 mb-12">
+          Join thousands of women taking control of their digital footprint and evidence with YourVoice.
+        </p>
+
+        <div class="flex flex-col sm:flex-row justify-center gap-4">
+          <!-- UPDATED LINK -->
+          <a
+            href="register.html"
+            class="bg-primary hover:bg-primary/90 text-white px-12 py-6 rounded-xl font-bold text-2xl transition-all shadow-2xl shadow-primary/30"
+          >
+            Connect Your Wallet
+          </a>
+        </div>
+
+        <p class="mt-10 text-slate-500">
+          Need help setting up a wallet?
+          <a class="text-primary underline font-semibold hover:text-primary/80" href="#">View our guide</a>
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
